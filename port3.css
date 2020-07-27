@@ -1,0 +1,380 @@
+
+
+*, *:before, *:after{ 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: auto;
+  
+  }
+
+  p{
+    line-height: 1.6em;
+  } 
+
+  a{
+    text-decoration: none;
+    color: black;
+    max-width: 100%;
+    word-wrap: break-word;
+    
+}
+
+span{
+    font-weight: normal;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+      background-repeat: no-repeat;
+      background-size: 100% 0.4em;
+      background-position: 0 88%;
+  }
+
+
+  #contenitore{
+    overflow: hidden;
+}
+
+
+
+
+#nome{
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-family: 'Barlow', sans-serif;
+     z-index: -1; 
+    position: relative;
+    max-width: auto;
+    
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#nome figure{
+    position: fixed;
+    bottom: 0;
+    
+}
+#nome h1{
+    position: absolute;
+    left:35%;
+    top:30%;
+    font-size: 6em;
+    color:white;
+    
+}
+
+
+
+
+#bio{
+    background-color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 100px 5% 5%;
+    border-bottom: solid 8px;
+    -webkit-border-image: -webkit-linear-gradient(top #ee7752 0%, #e73c7e 100%);
+  border-image: linear-gradient(to bottom, #ee7752 0%, #e73c7e 100%);
+  border-image-slice: 1;
+}
+#bio h2{
+    position:relative;
+    bottom:35px;
+    background: -webkit-linear-gradient(#84fab0, #8fd3f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#bio figure img{
+    width: 300px;
+    height: 300px;
+}
+#bio figure{
+    position:relative;
+    bottom:50px;
+}
+
+
+
+
+
+
+#passioni{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 100px 5% 5%; 
+    border-bottom: solid 8px;
+    -webkit-border-image: -webkit-linear-gradient(top #ee7752 0%, #e73c7e 100%);
+  border-image: linear-gradient(to bottom, #ee7752 0%, #e73c7e 100%);
+  border-image-slice: 1;
+ 
+}
+#passioni h2{
+    position:relative;
+    bottom:35px;
+    background: -webkit-linear-gradient(#84fab0, #8fd3f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#passioni figure img{
+    width: 300px;
+    height: 300px;
+}
+#passioni figure{
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+#abilita{
+    
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 100px 5% 5%;
+    border-bottom: solid 8px;
+    -webkit-border-image: -webkit-linear-gradient(top #ee7752 0%, #e73c7e 100%);
+  border-image: linear-gradient(to bottom, #ee7752 0%, #e73c7e 100%);
+  border-image-slice: 1;
+
+}
+#abilita ul{
+    list-style: none;
+}
+#abilita h2{
+    font-size: 2em;
+    position:relative;
+    bottom:35px;
+    background: -webkit-linear-gradient(#84fab0, #8fd3f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#abilita figure img{
+    width: 300px;
+    height: 300px;
+}
+#abilita figure{
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+
+
+#progetti{
+    
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 100px 5% 5%;  
+}
+#progetti h2{
+    position:relative;
+    bottom:35px;
+    background: -webkit-linear-gradient(#84fab0, #8fd3f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+#progetti figure img{
+     width: 300px;
+    height: 300px;
+}
+#progetti figure{
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+
+
+
+
+
+#contatti{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    text-align: left;
+    padding: 20px 5% 20px 5%;
+    border: solid 8px;
+    -webkit-border-image: -webkit-linear-gradient(top #ee7752 0%, #e73c7e 100%);
+  border-image: linear-gradient(to bottom, #ee7752 0%, #e73c7e 100%);
+  border-image-slice: 1;
+  display: flex;
+}
+#contatti h1{
+    position:relative;
+    
+    background: -webkit-linear-gradient(#84fab0, #8fd3f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#contatti article{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#contatti figure img{
+    width:50%;
+  height:auto;
+}
+#contatti figure{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width:1199px){
+    #nome h1{
+    position: absolute;
+    left:20px;
+    top:10%;
+    font-size: 3em;
+    font-weight: 900;
+    word-wrap: break-word;
+    max-width: 100%;
+    }
+    #nome figure img{
+        height: 40vh;
+             
+    }
+    
+    #contatti{
+        flex-direction: column;
+    }
+    #contatti article{
+        width:100%;
+        text-align: center;
+    }
+    #contatti figure{
+    display: flex;
+    width:100%;
+    margin-top:40px;
+    justify-content: center;
+    align-items: center;
+    }
+    /* #contatti figure img{
+        width:50%;
+        height:auto;
+       } */
+       #bio figure img{
+        width:50%;
+        height:auto;
+       }
+       #passioni figure img{
+        width:50%;
+        height:auto;
+       }
+       #abilita figure img{
+        width:50%;
+        height:auto;
+       }
+       #progetti figure img{
+        width:50%;
+        height:auto;
+       }
+       #contatti figure img{
+        width:50%;
+        height:auto;
+       }
+
+}
+
+
+@media screen and (min-width:1650px){
+    #nome figure img{
+        height: 80vh;
+             
+    }
+    #nome h1{
+        position: absolute;
+        left:35.3%;
+        top:20%;
+        font-size: 8.2em;
+        font-weight: 900;
+        word-wrap: break-word;
+        max-width: 100%;
+        }
+    p, ul{
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 4em;
+    }
+    #abilita h2{
+        font-size: 5em;
+    }
+   #bio figure img{
+    width:auto;
+    height:auto;
+   }
+   #passioni figure img{
+    width:auto;
+    height:auto;
+   }
+   #abilita figure img{
+    width:auto;
+    height:auto;
+   }
+   #progetti figure img{
+    width:auto;
+    height:auto;
+   }
+   #contatti figure img{
+    width:auto;
+    height:auto;
+   }
+   #contatti h1{
+       font-size: 4.5em;
+   }
+   a{
+       font-size: 2.5em;
+   }
+
+}
+
+   
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
